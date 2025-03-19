@@ -11,7 +11,7 @@ import shared
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "hand.thumbsup")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text(Greeter().greet())
